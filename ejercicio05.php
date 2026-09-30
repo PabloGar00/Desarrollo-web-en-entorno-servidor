@@ -6,10 +6,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ejercicio x</title>
+    <title>ejercicio 5</title>
 </head>
 <body>
-    <h1>Ejercicio x</h1>
+    <h1>Ejercicio 5</h1>
     
 </body>
 </html>
