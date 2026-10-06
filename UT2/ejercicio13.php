@@ -1,6 +1,7 @@
 <?php
-    
-    ?>
+$frutas = ["Manzana", "Plátano", "Naranja", "Fresa", "Kiwi"];
+$totalFrutas = count($frutas);
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,6 +11,11 @@
 </head>
 <body>
     <h1>Ejercicio 13</h1>
-    
+    <p>Total de frutas: <?php echo $totalFrutas; ?></p>
+    <ul>
+        <?php foreach ($frutas as $fruta): ?>
+            <li><?php echo $fruta; ?></li>
+        <?php endforeach; ?>
+    </ul>
 </body>
 </html>
