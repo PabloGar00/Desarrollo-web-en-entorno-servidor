@@ -13,7 +13,6 @@ var_dump($_POST);
     <h1>Ejercicio 1</h1>
     <form method=POST>
       <label for="nombre">Nombre:</label><input name="nombre">
-        
         <button>Enviar</button>
 </body>
 </html>
