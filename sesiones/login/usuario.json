@@ -1,0 +1,13 @@
+{"usuarios":[
+        {
+            "usuario": "ana",
+            "contrasena": "$2y$10$Hj.56fz8zbAOYC9xNtKQCemRSyOnlA6O/JbS1DQQLmdn5H3jD0c.6"
+        }
+        ,{
+            "usuario": "blas",
+            "contrasena": "$2y$10$P1ezvCt7m3ZJ0LDGYUcDnez3DBf2F1lB3tQO.4b9Fs5yRKwUd.FSq"
+        }
+
+    ]
+
+}
