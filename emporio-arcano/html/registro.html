@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emporio Arcano - Registro</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <main class="panel">
+        <h1>Registro</h1>
+        <form action="login.html">
+            <label for="nombre">Nombre completo</label><input id="nombre" required>
+            <label for="email">Correo electrónico</label><input id="email" type="email" required>
+            <label for="usuario">Nombre de usuario</label><input id="usuario" required>
+            <label for="clave">Clave</label><input id="clave" type="password" required>
+            <label for="repetir">Repetir clave</label><input id="repetir" type="password" required>
+            <label for="tipo">Tipo de cliente</label><select id="tipo">
+                <option>Muggle</option>
+                <option>Estudiante de Howarts</option>
+                <option>Bruja/Mago</option>
+            </select>
+            <button type="submit">Crear cuenta</button><a class="boton secundario" href="login.html">Volver</a>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "Ada Lovelace",
+        "descripcion": "Ada Lovelace fue una matemática y escritora británica del siglo XIX, conocida por sus contribuciones pioneras a la computación teórica. Es especialmente célebre por sus notas sobre la Máquina Analítica de Charles Babbage, donde describió un algoritmo que suele considerarse el primer programa informático publicado y anticipó que las máquinas podrían manipular símbolos más allá de los simples cálculos numéricos.",
+        "imagen": "img/0bb18376dfdf09e041dcbc42aaf0b89d.jpg",
+        "autor": "ejemplo",
+        "fecha": "2026-11-09T11:52:53+01:00",
+        "comentarios": [
+            {
+                "texto": "esto es un ejemplo",
+                "autor": "ejemplo",
+                "fecha": "2026-11-09T11:57:31+01:00"
+            }
+        ]
+    },
+    {
+        "nombre": "Grace Hopper",
+        "descripcion": "Grace Hopper (1906–1992) fue una matemática, pionera de la informática y contraalmirante de la Marina de Estados Unidos. Fue una figura decisiva en la evolución de la programación: trabajó con los primeros ordenadores a gran escala, impulsó los compiladores y contribuyó de forma fundamental al desarrollo y difusión de COBOL.",
+        "imagen": "img/ffc5416a84faa5f05353bf0cea52ed21.jpg",
+        "autor": "ejemplo",
+        "fecha": "2026-11-09T12:05:33+01:00"
+    },
+    {
+        "nombre": "Margaret Hamilton",
+        "descripcion": "Margaret Hamilton fue una matemática, científica informática e ingeniera de software estadounidense que dirigió equipos responsables del software de vuelo a bordo del programa Apollo. Su trabajo contribuyó decisivamente a convertir el desarrollo de software en una disciplina de ingeniería rigurosa y a hacer posibles las misiones tripuladas a la Luna. Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90 | MIT News | Massachusetts Institute of Technology",
+        "imagen": "img/3eb506bb49571d420dd98f2e149220bb.jpg",
+        "autor": "ejemplo2",
+        "fecha": "2026-11-09T12:06:48+01:00"
+    },
+    {
+        "nombre": "Radia Perlman",
+        "descripcion": "Radia Perlman es una ingeniera informática y matemática estadounidense, pionera en redes de ordenadores y seguridad informática. Es especialmente conocida por crear el algoritmo que dio origen al Spanning Tree Protocol (STP) y por desarrollar técnicas fundamentales para que las redes sean escalables, resistentes a fallos y fáciles de administrar.",
+        "imagen": "img/4686d4ede965fa8063e0339dd8cf8f0a.png",
+        "autor": "ejemplo2",
+        "fecha": "2026-11-09T12:07:22+01:00"
+    },
+    {
+        "nombre": "Hedy Lamarr",
+        "descripcion": "Hedy Lamarr fue una actriz austroestadounidense de la edad de oro de Hollywood y una inventora autodidacta. Nacida como Hedwig Eva Maria Kiesler en Viena, alcanzó el estrellato cinematográfico mientras desarrollaba, junto con George Antheil, un sistema precursor de importantes técnicas modernas de comunicación inalámbrica.",
+        "imagen": "img/09f82813b1f0d620cfaae930ed4ce052.png",
+        "autor": "ejemplo2",
+        "fecha": "2026-11-09T12:08:02+01:00"
+    }
+]

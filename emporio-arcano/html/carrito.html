@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - Emporio Arcano</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera"><a class="logo" href="inicio.html">✦ Emporio Arcano</a>
+            <div>Hermione Granger · Estudiante de Howarts</div>
+        </div>
+    </header>
+    <main>
+        <h1>Carrito de la compra</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Precio</th>
+                    <th>Unidades</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Varita de acebo</td>
+                    <td>79,90 €</td>
+                    <td><input class="cantidad" type="number" value="1" min="1"></td>
+                    <td><button>Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Protego</td>
+                    <td>21,90 €</td>
+                    <td><input class="cantidad" type="number" value="1" min="1"></td>
+                    <td><button>Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Poción de memoria</td>
+                    <td>18,90 €</td>
+                    <td><input class="cantidad" type="number" value="2" min="1"></td>
+                    <td><button>Eliminar</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="resumen"><strong>Total: 139,60 €</strong></div>
+        <div class="acciones"><button>Recalcular Total</button><a class="boton" href="compra1.html">Continuar</a><a
+                class="boton secundario" href="inicio.html">Seguir comprando</a></div>
+    </main>
+</body>
+
+</html>
