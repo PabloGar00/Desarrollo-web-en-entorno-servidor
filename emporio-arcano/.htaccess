@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Evita volver a aplicar esta regla sobre public/
+RewriteRule ^public(?:/|$) - [L]
+
+# Permite servir directamente las imágenes y demás datos del proyecto
+RewriteRule ^datos(?:/|$) - [L]
+
+# Envía todas las peticiones hacia public/
+RewriteRule ^$ public/ [L]
+RewriteRule ^(.+)$ public/$1 [L]

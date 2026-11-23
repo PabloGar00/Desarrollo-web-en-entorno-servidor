@@ -1,0 +1,118 @@
+INVENTARIO RECURSIVO - EMPORIO ARCANO
+Raiz: C:\xampp\htdocs\emporio-arcano
+Formato: equivalente a ls -R
+
+./
+  .htaccess
+  README.md
+  app/
+  config/
+  datos/
+  herramientas/
+  public/
+
+app/
+  controladores/
+  modelos/
+  servicios/
+  vistas/
+
+app/controladores/
+  inicio.php
+  item.php
+  login.php
+
+app/modelos/
+  usuarios.php
+
+app/servicios/
+  autoload.php
+  configurador.php
+  enrutador.php
+
+app/vistas/
+  inicio.php
+  item.php
+  login.php
+  html/
+
+app/vistas/html/
+  carrito.html
+  compra1.html
+  compra2.html
+  compra3.html
+  inicio.html
+  item.html
+  login.html
+  registro.html
+
+config/
+  config.php
+  rutas.php
+
+datos/
+  clientes.json
+  items.json
+  precios.php
+  img/
+
+datos/img/
+  item01.png
+  item02.png
+  item03.png
+  item04.png
+  item05.png
+  item06.png
+  item07.png
+  item08.png
+  item09.png
+  item10.png
+  item11.png
+  item12.png
+  item13.png
+  item14.png
+  item15.png
+  item16.png
+  item17.png
+  item18.png
+  item19.png
+  item20.png
+  item21.png
+  item22.png
+  item23.png
+  item24.png
+  item25.png
+
+herramientas/
+
+public/
+  .htaccess
+  index.php
+  css/
+  img/
+  js/
+
+public/css/
+  estilo.css
+
+public/img/
+
+public/js/
+
+DESCRIPCIONES POR CARPETA
+
+- ./: Raiz del proyecto. Contiene la configuracion web principal y la documentacion general.
+- app/: Codigo de aplicacion de la tienda: controladores, modelos, servicios y vistas.
+- app/controladores/: Gestiona las acciones de inicio, productos y acceso de usuarios.
+- app/modelos/: Contiene la logica y las operaciones relacionadas con los usuarios.
+- app/servicios/: Servicios internos de carga automatica, configuracion y enrutamiento.
+- app/vistas/: Plantillas PHP y paginas HTML que conforman la interfaz de la aplicacion.
+- app/vistas/html/: Archivos HTML de inicio, productos, carrito, compra, login y registro.
+- config/: Configuracion general del proyecto y definicion de rutas.
+- datos/: Datos persistentes y recursos publicados por la aplicacion.
+- datos/img/: Imagenes de los productos identificadas como item01.png hasta item25.png.
+- public/: Documento publico y punto de entrada de la aplicacion web.
+- public/css/: Hojas de estilo utilizadas por las vistas del sitio.
+- herramientas/: Carpeta reservada para utilidades auxiliares del proyecto.
+- public/img/: Carpeta reservada para recursos e imagenes publicas.
+- public/js/: Carpeta reservada para scripts JavaScript publicos.

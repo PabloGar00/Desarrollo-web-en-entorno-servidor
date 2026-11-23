@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emporio Arcano - Acceso</title>
+    <link rel="stylesheet" href="public/css/estilo.css">
+</head>
+
+<body>
+  <main class="panel">
+    <h1>Emporio Arcano</h1>
+    <p>Acceso de clientes</p>
+    <form action="login" method="post">
+      <label for="usuario">Usuario</label><input id="usuario" name="usuario" required>
+      <label for="clave">Clave</label><input id="clave" name="clave" type="password" required>
+      <p><a href="#">He olvidado mi clave</a></p>
+      <button type="submit">Acceder</button>
+      <?php if ($mensaje !== null): ?>
+        <p class="<?= $exito ? 'exito' : 'error' ?>" role="status"><?= $mensaje ?></p>
+      <?php endif; ?>
+      <a class="boton secundario" href="registro">Registrarse</a>
+    </form>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #222;
+}
+
+a {
+    color: #4b2d73;
+}
+
+header {
+    background: #2f2140;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header .cabecera {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.usuario {
+    font-size: .95rem;
+}
+
+nav {
+    background: #ddd2ea;
+    padding: .8rem 2rem;
+}
+
+nav a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.panel {
+    max-width: 520px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.error {
+    padding: .7rem;
+    color: #842029;
+    background: #f8d7da;
+    border: 1px solid #f5c2c7;
+    border-radius: 4px;
+}
+
+.exito {
+    padding: .7rem;
+    color: #0f5132;
+    background: #d1e7dd;
+    border: 1px solid #badbcc;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-top: .8rem;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: .6rem;
+    margin-top: .3rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button,
+.boton {
+    display: inline-block;
+    padding: .65rem 1rem;
+    margin: .8rem .4rem 0 0;
+    border: 0;
+    border-radius: 4px;
+    background: #5b3a78;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button.secundario,
+.boton.secundario {
+    background: #777;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.ficha {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.ficha a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ficha img,
+.detalle img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    background: #ddd;
+    border: 1px solid #bbb;
+}
+
+.precio {
+    font-weight: bold;
+    color: #6b2c2c;
+    font-size: 1.1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    border: 1px solid #bbb;
+    padding: .7rem;
+    text-align: left;
+}
+
+th {
+    background: #ddd2ea;
+}
+
+.cantidad {
+    width: 75px;
+}
+
+.resumen {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+}
+
+.acciones {
+    margin-top: 1rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    background: #2f2140;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+@media (max-width: 650px) {
+    table {
+        font-size: .9rem;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    nav {
+        padding: .8rem 1rem;
+    }
+}

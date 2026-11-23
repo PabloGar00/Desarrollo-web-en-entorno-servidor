@@ -8,5 +8,6 @@
   {"id": 7, "nombre": "Molly Weasley", "clave": "madriguera", "tipo": "Bruja/Mago"},
   {"id": 8, "nombre": "Arthur Weasley", "clave": "enchufe", "tipo": "Bruja/Mago"},
   {"id": 9, "nombre": "Vernon Dursley", "clave": "taladro", "tipo": "Muggle"},
-  {"id": 10, "nombre": "Dudley Dursley", "clave": "pastel", "tipo": "Muggle"}
+  {"id": 10, "nombre": "Dudley Dursley", "clave": "pastel", "tipo": "Muggle"},
+  {"id": 11, "nombre": "ana", "clave": "ana", "tipo": "Muggle"}
 ]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emporio Arcano</title>
+    <link rel="stylesheet" href="public/css/estilo.css">
+</head>
+<body>
+<header><div class="cabecera"><a class="logo" href="/emporio-arcano/inicio">✦ Emporio Arcano</a><div class="usuario"><?= $nombre ?><?= $tipo !== '' ? ' · ' . $tipo : '' ?></div><div><a class="boton" href="carrito">🛒 Carrito (3)</a> <a class="boton secundario" href="/emporio-arcano/logout">Cerrar sesión</a></div></div></header>
+<nav><a href="#varitas">Varitas</a><a href="#hechizos">Hechizos</a><a href="#pocimas">Pócimas</a></nav>
+<main>
+<h1>Catálogo</h1>
+<section class="productos" id="varitas">
+  <article class="ficha"><a href="item?id=1"><img src="/emporio-arcano/datos/img/item01.png" alt="Varita de acebo"><h2>Varita de acebo</h2><p class="precio">79,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=2"><img src="/emporio-arcano/datos/img/item02.png" alt="Varita de vid"><h2>Varita de vid</h2><p class="precio">74,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=3"><img src="/emporio-arcano/datos/img/item03.png" alt="Varita de sauce"><h2>Varita de sauce</h2><p class="precio">59,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=4"><img src="/emporio-arcano/datos/img/item04.png" alt="Varita de espino"><h2>Varita de espino</h2><p class="precio">82,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=5"><img src="/emporio-arcano/datos/img/item05.png" alt="Varita de tejo"><h2>Varita de tejo</h2><p class="precio">109,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=6"><img src="/emporio-arcano/datos/img/item06.png" alt="Varita de nogal"><h2>Varita de nogal</h2><p class="precio">84,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=7"><img src="/emporio-arcano/datos/img/item07.png" alt="Varita de fresno"><h2>Varita de fresno</h2><p class="precio">62,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=8"><img src="/emporio-arcano/datos/img/item08.png" alt="Varita de roble"><h2>Varita de roble</h2><p class="precio">69,90 €</p></a><button>Añadir al carrito</button></article>
+</section>
+<h2 id="hechizos">Hechizos</h2><section class="productos">
+  <article class="ficha"><a href="item?id=9"><img src="/emporio-arcano/datos/img/item09.png" alt="Lumos"><h2>Lumos</h2><p class="precio">11,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=10"><img src="/emporio-arcano/datos/img/item10.png" alt="Alohomora"><h2>Alohomora</h2><p class="precio">13,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=11"><img src="/emporio-arcano/datos/img/item11.png" alt="Protego"><h2>Protego</h2><p class="precio">21,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=12"><img src="/emporio-arcano/datos/img/item12.png" alt="Accio"><h2>Accio</h2><p class="precio">19,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=13"><img src="/emporio-arcano/datos/img/item13.png" alt="Wingardium Leviosa"><h2>Wingardium Leviosa</h2><p class="precio">15,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=14"><img src="/emporio-arcano/datos/img/item14.png" alt="Expelliarmus"><h2>Expelliarmus</h2><p class="precio">24,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=15"><img src="/emporio-arcano/datos/img/item15.png" alt="Invisibilidad"><h2>Invisibilidad</h2><p class="precio">17,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=16"><img src="/emporio-arcano/datos/img/item16.png" alt="Reparo"><h2>Reparo</h2><p class="precio">14,90 €</p></a><button>Añadir al carrito</button></article>
+</section>
+<h2 id="pocimas">Pócimas</h2><section class="productos">
+  <article class="ficha"><a href="item?id=17"><img src="/emporio-arcano/datos/img/item17.png" alt="Poción vigorizante"><h2>Poción vigorizante</h2><p class="precio">10,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=18"><img src="/emporio-arcano/datos/img/item18.png" alt="Poción calmante"><h2>Poción calmante</h2><p class="precio">11,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=19"><img src="/emporio-arcano/datos/img/item19.png" alt="Veritaserum"><h2>Veritaserum</h2><p class="precio">13,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=20"><img src="/emporio-arcano/datos/img/item20.png" alt="Felix Felicis"><h2>Felix Felicis</h2><p class="precio">9,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=21"><img src="/emporio-arcano/datos/img/item21.png" alt="Antídoto básico"><h2>Antídoto básico</h2><p class="precio">15,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=22"><img src="/emporio-arcano/datos/img/item22.png" alt="Poción de memoria"><h2>Poción de memoria</h2><p class="precio">18,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=23"><img src="/emporio-arcano/datos/img/item23.png" alt="Esencia de invisibilidad"><h2>Esencia de invisibilidad</h2><p class="precio">34,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=24"><img src="/emporio-arcano/datos/img/item24.png" alt="Filtro de concentración"><h2>Filtro de concentración</h2><p class="precio">14,90 €</p></a><button>Añadir al carrito</button></article>
+  <article class="ficha"><a href="item?id=25"><img src="/emporio-arcano/datos/img/item25.png" alt="Elixir de buena suerte"><h2>Elixir de buena suerte</h2><p class="precio">54,90 €</p></a><button>Añadir al carrito</button></article>
+</section>
+</main><footer><a href="#">Avisos legales</a></footer></body></html>

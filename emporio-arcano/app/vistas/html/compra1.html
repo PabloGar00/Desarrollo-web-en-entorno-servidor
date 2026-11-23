@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra - Envío</title>
+    <link rel="stylesheet" href="public/css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera"><a class="logo" href="/emporio-arcano/inicio">✦ Emporio Arcano</a>
+            <div>Paso 1 de 3 · Dirección de envío</div>
+        </div>
+    </header>
+    <main>
+        <h1>Datos de envío</h1>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Unidades</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>Varita de acebo</td>
+                <td>1</td>
+                <td>79,90 €</td>
+            </tr>
+            <tr>
+                <td>Protego</td>
+                <td>1</td>
+                <td>21,90 €</td>
+            </tr>
+            <tr>
+                <td>Poción de memoria</td>
+                <td>2</td>
+                <td>37,80 €</td>
+            </tr>
+        </table>
+        <form class="resumen" action="compra2"><label for="destinatario">Destinatario</label><input
+                id="destinatario" value="Hermione Granger"><label for="direccion">Dirección</label><input id="direccion"
+                value="Torre de Gryffindor, Castillo de Hogwarts"><label for="localidad">Localidad</label><input
+                id="localidad" value="Hogsmeade"><label for="cp">Código postal</label><input id="cp"
+                value="00001"><label for="pais">País</label><input id="pais" value="Reino Unido"><button
+                type="submit">Continuar</button><a class="boton secundario" href="carrito">Volver</a></form>
+    </main>
+</body>
+
+</html>

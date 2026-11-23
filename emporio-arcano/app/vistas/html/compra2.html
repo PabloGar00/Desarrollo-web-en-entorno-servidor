@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra - Pago</title>
+    <link rel="stylesheet" href="public/css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera"><a class="logo" href="/emporio-arcano/inicio">✦ Emporio Arcano</a>
+            <div>Paso 2 de 3 · Pago</div>
+        </div>
+    </header>
+    <main>
+        <h1>Datos de pago</h1>
+        <div class="resumen">
+            <h2>Pedido</h2>
+            <p>Varita de acebo × 1 · 79,90 €</p>
+            <p>Protego × 1 · 21,90 €</p>
+            <p>Poción de memoria × 2 · 37,80 €</p><strong>Total: 139,60 €</strong>
+            <h2>Envío</h2>
+            <p>Hermione Granger<br>Torre de Gryffindor, Castillo de Hogwarts<br>00001 Hogsmeade · Reino Unido</p>
+        </div>
+        <form class="resumen" action="compra3"><label for="titular">Titular de la tarjeta</label><input
+                id="titular" value="Hermione Granger"><label for="tarjeta">Número de tarjeta</label><input id="tarjeta"
+                value="4242 4242 4242 4242"><label for="caducidad">Caducidad</label><input id="caducidad"
+                value="12/30"><label for="cvv">CVV</label><input id="cvv" value="123"><button
+                type="submit">Continuar</button><a class="boton secundario" href="compra1">Volver</a></form>
+    </main>
+</body>
+
+</html>

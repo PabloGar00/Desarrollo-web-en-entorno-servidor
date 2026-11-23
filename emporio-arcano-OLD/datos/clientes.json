@@ -1,0 +1,12 @@
+[
+  {"id": 1, "nombre": "Harry Potter", "clave": "expelliarmus", "tipo": "Estudiante de Howarts"},
+  {"id": 2, "nombre": "Hermione Granger", "clave": "biblioteca", "tipo": "Estudiante de Howarts"},
+  {"id": 3, "nombre": "Ron Weasley", "clave": "ajedrez", "tipo": "Estudiante de Howarts"},
+  {"id": 4, "nombre": "Minerva McGonagall", "clave": "transfiguracion", "tipo": "Bruja/Mago"},
+  {"id": 5, "nombre": "Albus Dumbledore", "clave": "fenix", "tipo": "Bruja/Mago"},
+  {"id": 6, "nombre": "Rubeus Hagrid", "clave": "dragon", "tipo": "Bruja/Mago"},
+  {"id": 7, "nombre": "Molly Weasley", "clave": "madriguera", "tipo": "Bruja/Mago"},
+  {"id": 8, "nombre": "Arthur Weasley", "clave": "enchufe", "tipo": "Bruja/Mago"},
+  {"id": 9, "nombre": "Vernon Dursley", "clave": "taladro", "tipo": "Muggle"},
+  {"id": 10, "nombre": "Dudley Dursley", "clave": "pastel", "tipo": "Muggle"}
+]
